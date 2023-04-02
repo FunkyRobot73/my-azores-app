@@ -1,4 +1,4 @@
-import { islandinfo } from "./island-info";
+import { islandinfo } from "./islands-info";
 
 export const Islandsinfo: islandinfo[]=[
     {name:"St-Miguel", attractionSites:['Ponta Delgada', 'Furnas', 'Moms House']},
