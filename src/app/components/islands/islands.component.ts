@@ -6,7 +6,7 @@ import { GetislandsService } from 'src/app/services/getislands.service';
   templateUrl: './islands.component.html',
   styleUrls: ['./islands.component.css']
 })
-export class IslandsComponent implements OnInit {
+export class IslandsComponent {
   islands;
   color;
   constructor(private _islands: GetislandsService) { }

@@ -6,7 +6,7 @@ import { IslandsWeather } from '../components/islands/islands-info-data';
 })
 export class GetweatherService {
 
-  getWeather:IgetWeather[] = IslandsWeather;
+  getWeather:any[] = IslandsWeather;
 
   constructor() { }
 }
